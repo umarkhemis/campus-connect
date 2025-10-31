@@ -1,0 +1,120 @@
+
+venv/
+__pycache__/
+*.pyc
+# ============================================
+# Django & Python
+# ============================================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+MANIFEST
+
+
+# Virtual environment
+
+env/
+compus_connect_env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+# IDEs and editors
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.DS_Store
+*.swp
+*~
+
+
+# OS files
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+# Django specific
+
+# *.log
+logs/*.log
+!logs/.gitkeep
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+# Keep static files in repo for deployment
+# static/
+local_settings.py
+*.pot
+*.mo
+
+
+.env
+.env.*
+*.env
+*.secret
+*.key
+secrets.json
+!.env.example
+
+
+# Only ignore if you want fresh migrations
+
+# */migrations/
+# !*/migrations/__init__.py
+
+
+# Pytest / Coverage
+
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+htmlcov/
+.tox/
+.pytest_cache/
+
+
+# Gunicorn / Nginx
+
+/run/gunicorn/
+*.sock
+*.pid
+logs/
+# Don't ignore all .log files in case you need deployment logs
+# *.log
+
+;
+
+
+# VSCode Python environment folders
+
+.python-version
+
+
+# Backup files
+
+*.backup
+*.bak
+*_old
+*_backup
+bookings_old_backup/
+
+
+# Database dumps
+
+*.sql
+*.dump
+*.json.backup
